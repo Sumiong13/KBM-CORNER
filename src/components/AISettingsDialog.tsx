@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Alert, AlertDescription } from './ui/alert';
 import { Bot, Check, X, Eye, EyeOff, Info } from 'lucide-react';
 import { aiService } from '../lib/aiService';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface AISettingsDialogProps {
   open: boolean;
