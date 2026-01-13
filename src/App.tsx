@@ -13,7 +13,7 @@ import { EmailVerificationDialog } from './components/EmailVerificationDialog';
 import { SupabaseSetupCheck } from './components/SupabaseSetupCheck';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+import { Toaster, toast } from "sonner";
 import clubLogo from 'figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png';
 
 // Global error suppression for Supabase auth runtime errors
