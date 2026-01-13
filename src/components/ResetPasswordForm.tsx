@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Alert, AlertDescription } from './ui/alert';
 import { AlertCircle, CheckCircle } from 'lucide-react';
 import { createClient } from '../utils/supabase/client';
-import clubLogo from 'figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png';
+const clubLogo = "https://placehold.co/400x400?text=UTM+Mandarin+Club";
 
 interface ResetPasswordFormProps {
   onComplete: () => void;
