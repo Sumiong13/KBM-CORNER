@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Download, FileText, Calendar, DollarSign, Users } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { getAllUsers, getAllEvents, getAllAttendance, getAllPayments, getAllRSVPs } from '../lib/storage';
 
 interface ReportsGeneratorProps {
