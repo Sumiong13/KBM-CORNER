@@ -10,7 +10,7 @@ import { api } from '../lib/api';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from './ui/dialog';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { QRCodeGenerator } from './QRCodeGenerator';
-import clubLogo from 'figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png';
+const clubLogo = "https://placehold.co/400x400?text=UTM+Mandarin+Club";
 
 interface AdminDashboardProps {
   user: any;
