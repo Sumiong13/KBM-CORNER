@@ -31,7 +31,7 @@ import { AdvertisementSlideshow } from "./AdvertisementSlideshow";
 import { StripePaymentDialog } from "./StripePaymentDialog";
 import { PaymentHistory } from "./PaymentHistory";
 import { PaymentButton } from "./PaymentButton";
-import clubLogo from "figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png";
+const clubLogo = "https://placehold.co/400x400?text=UTM+Mandarin+Club";
 
 interface StudentDashboardProps {
   user: any;
