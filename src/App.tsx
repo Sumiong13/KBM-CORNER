@@ -14,7 +14,7 @@ import { SupabaseSetupCheck } from './components/SupabaseSetupCheck';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { Toaster } from './components/ui/sonner';
 import { toast } from "sonner";
-import clubLogo from 'figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png';
+import clubLogo from './assets/logo.png';
 
 // Global error suppression for Supabase auth runtime errors
 // Set up immediately before any component renders
