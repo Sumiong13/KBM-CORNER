@@ -14,7 +14,7 @@ import { AssignClassButton } from './AssignClassButton';
 import { ClassManagement } from './ClassManagement';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { EventRsvpList } from './EventRsvpList';
-import clubLogo from 'figma:asset/ade13b6fb51eb9b3ff7200cf4269cebe703dd1ea.png';
+const clubLogo = "https://placehold.co/400x400?text=UTM+Mandarin+Club";
 
 interface CommitteeDashboardProps {
   user: any;
